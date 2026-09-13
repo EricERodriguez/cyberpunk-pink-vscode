@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="background" x1="50" y1="20" x2="1200" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#09070D"/>
+      <stop offset="0.52" stop-color="#100012"/>
+      <stop offset="1" stop-color="#09070D"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="150" y1="135" x2="510" y2="505" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3DDA"/>
+      <stop offset="0.56" stop-color="#9B5DE5"/>
+      <stop offset="1" stop-color="#63E6E2"/>
+    </linearGradient>
+    <linearGradient id="line" x1="555" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF3DDA"/>
+      <stop offset="1" stop-color="#63E6E2"/>
+    </linearGradient>
+    <radialGradient id="magentaGlow">
+      <stop offset="0" stop-color="#FF3DDA" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FF3DDA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cyanGlow">
+      <stop offset="0" stop-color="#63E6E2" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#63E6E2" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#background)"/>
+  <circle cx="180" cy="120" r="330" fill="url(#magentaGlow)"/>
+  <circle cx="1130" cy="590" r="380" fill="url(#cyanGlow)"/>
+  <path d="M0 532 330 202 642 514 874 282 1280 688" fill="none" stroke="#9B5DE5" stroke-width="2" opacity="0.18"/>
+  <path d="M0 580 330 250 642 562 874 330 1280 736" fill="none" stroke="#FF3DDA" stroke-width="2" opacity="0.14"/>
+
+  <g transform="translate(135 126)">
+    <path d="M180 0 344 95v190L180 380 16 285V95Z" fill="none" stroke="#FF3DDA" stroke-width="10" opacity="0.3" filter="url(#glow)"/>
+    <path d="M180 0 344 95v190L180 380 16 285V95Z" fill="#100012" stroke="url(#neon)" stroke-width="10" stroke-linejoin="round"/>
+    <path d="m180 64 106 126-106 126L74 190Z" fill="#09070D" stroke="url(#neon)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M180 64v252M74 190h212" fill="none" stroke="#E8E1EB" stroke-width="4" opacity="0.72"/>
+    <circle cx="180" cy="190" r="13" fill="#E8E1EB"/>
+  </g>
+
+  <g font-family="DejaVu Sans, sans-serif">
+    <text x="555" y="255" fill="#E8E1EB" font-size="70" font-weight="700" letter-spacing="-2">Cyberpunk Pink</text>
+    <rect x="558" y="292" width="570" height="4" rx="2" fill="url(#line)"/>
+    <text x="555" y="374" fill="#FF3DDA" font-size="45" font-weight="600" letter-spacing="5">— Deep Void</text>
+    <text x="558" y="430" fill="#63E6E2" font-size="21" font-weight="500" letter-spacing="4">VS CODE COLOR THEME</text>
+  </g>
+</svg>

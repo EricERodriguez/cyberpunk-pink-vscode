@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "author": "Eric Rodriguez",
   "publisher": "TODO-set-your-marketplace-publisher-id",
+  "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",

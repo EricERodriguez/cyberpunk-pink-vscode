@@ -1,3 +1,5 @@
+![Cyberpunk Pink — Deep Void](images/banner.png)
+
 # Cyberpunk Pink — Deep Void
 
 Tema de color para VS Code derivado de [SynthWave '84](https://github.com/robb0wen/synthwave-vscode)
