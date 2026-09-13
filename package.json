@@ -4,15 +4,19 @@
   "description": "A magenta/cyan cyberpunk color theme, derived from SynthWave '84, matching the Cyberpunk Pink — Deep Void design system (GNOME, Guake, Conky) exactly.",
   "version": "0.0.1",
   "author": "Eric Rodriguez",
-  "publisher": "TODO-set-your-marketplace-publisher-id",
+  "publisher": "AgentstudioIA",
   "icon": "images/icon.png",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TODO-your-github-user/cyberpunk-pink-vscode"
+    "url": "https://github.com/EricERodriguez/cyberpunk-pink-vscode"
   },
   "engines": {
     "vscode": "^1.80.0"
+  },
+  "scripts": {
+    "package": "npx @vscode/vsce package",
+    "release": "npm run package"
   },
   "extensionKind": ["ui"],
   "categories": ["Themes"],
