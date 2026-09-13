@@ -30,7 +30,3 @@ falta: revisión visual, icono/banner propios, y completar los campos
 ## Créditos
 
 Basado en SynthWave '84 (MIT License, Copyright (c) 2019 Robb Owen). Ver `LICENSE`.
-
-## Documentación
-
-- [`docs/plan.md`](docs/plan.md) — plan de color completo, decisiones y tareas pendientes.
